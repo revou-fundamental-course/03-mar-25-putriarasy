@@ -1,1 +1,65 @@
 /* ini file css */
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3e2723; /* warna coklat klasik */
+    padding: 10px 20px;
+}
+
+.main-logo {
+    height: 50px;
+    width: 50px;
+    background-image: url(https://picsum.photos/200);
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    border: 2px solid #fff; /* Bingkai putih untuk kontras */
+}
+
+/* Navigasi */
+nav {
+    display: flex;
+}
+
+nav>a {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: none;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    background-color: #5d4037; /* coklat tua */
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+nav>a:hover {
+    background-color: #795548; /* Efek hover lebih terang */
+}
+
+/* ==== Banner / Hero Section ===== */
+.banner-img {
+    height: 350px;
+    background-image: url('assets/Trem-di-halte-karangdinoyo.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin: 20px auto
+}
+
+.profile-content {
+    border: 1px solid;
+    height: 300px;
+}
+
+.heritage-content {
+    border: 1px solid;
+    height: 300px;
+}
+
+.contact-content {
+    border: 1px solid;
+    height: 300px;
+}
