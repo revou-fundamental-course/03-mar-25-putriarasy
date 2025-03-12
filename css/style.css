@@ -49,17 +49,72 @@ nav>a:hover {
     margin: 20px auto
 }
 
-.profile-content {
-    border: 1px solid;
-    height: 300px;
-}
-
-.heritage-content {
-    border: 1px solid;
-    height: 300px;
-}
-
+/* ==== Konten Utama ===== */
+.profile-content,
+.heritage-content,
 .contact-content {
-    border: 1px solid;
-    height: 300px;
+    border: 1px solid #ddd;
+    height: auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+/* ======= Formulir Kontak ======= */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form label {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+form input, form textarea {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #3e2723;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+form button:hover {
+    background-color: #5d4037;
+}
+
+/* ======= Styling Hasil Input Form ======= */
+#form-result {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f5f5f5; /* Warna background lembut */
+    border-left: 5px solid #3e2723; /* Garis tepi kiri untuk aksen */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Efek bayangan */
+    border-radius: 5px; /* Sudut melengkung */
+    font-size: 16px;
+    color: #333;
+}
+
+/* ======= Footer ======= */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #3e2723;
+    color: white;
+    font-weight: bold;
 }

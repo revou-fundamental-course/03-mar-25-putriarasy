@@ -29,10 +29,10 @@
          <!-- main content -->
           <main>
             <!-- Home Content -->
-             <section id="home">
+            <section id="home">
                 <header>
-                    <h1>Selamat Datang di Sejarah Kediri Stoomtram Maatschappij</h1>
-                    <p>Website ini berisi tentang sejarah Kediri Stoomtram Maatschappij, perusahaan trem uap swasta yang pernah beroperasi di Kediri pada era Kolonial Belanda.</p>
+                    <h1 id="user-name">Hi, Pengunjung!</h1>
+                    <p>Website ini membahas sejarah Kediri Stoomtram Maatschappij.</p>
                 </header>
 
                 <!-- Banner Image -->
@@ -71,22 +71,45 @@
                 </div>
              </section>
 
-            <!-- Kontak -->
-             <section id="contact">
+             <hr />
+
+              <!-- Kontak -->
+              <section id="contact">
                 <header>
                     <h1>Kontak Kami</h1>
                 </header>
-
+            
                 <div class="contact-content">
-                    <p>Lorem Ipsum dshdisihd....</p>
+                    <p>Jika Anda memiliki pertanyaan atau informasi tambahan mengenai sejarah KSM, silakan hubungi kami melalui formulir di bawah ini:</p>
+            
+                    <form>
+                        <label for="name">Nama:</label>
+                        <input type="text" id="name" name="name" required>
+            
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+            
+                        <label for="message">Pesan:</label>
+                        <textarea id="message" name="message" required></textarea>
+            
+                        <button type="submit">Kirim</button>
+                    </form>
+            
+                    <!-- 🔹 Menampilkan hasil input form setelah dikirim -->
+                    <div id="form-result" style="display: none;"></div>
+            
                 </div>
-             </section>
-          </main>
+            </section>
+            
+        </main>
 
           <!-- main footer -->
            <footer>
             <p>&copy; 2025 Portofolio Putri Arasy</p>
            </footer>
-    </body>
+        
+        <script src="js\script.js"></script>
+
+        </body>
 
 </html>
