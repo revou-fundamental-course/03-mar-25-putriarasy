@@ -40,18 +40,31 @@ nav>a:hover {
 }
 
 /* ==== Banner / Hero Section ===== */
-.banner-img {
-    height: 350px;
-    background-image: url('assets/Trem-di-halte-karangdinoyo.jpg');
-    background-size: cover;
-    background-position: center;
-    border-radius: 10px;
-    margin: 20px auto
-}
+.banner-img {}    
 
 /* ==== Konten Utama ===== */
 .profile-content,
-.heritage-content,
+.heritage-content,{
+    ul {
+        list-style-type: none; /* Menghilangkan bullet list */
+        padding: 0;
+    }
+    
+    ul li {
+        margin-bottom: 20px; /* Jarak antar item */
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    ul li img {
+        display: block;
+        margin-top: 10px;
+        border-radius: 10px; /* Membuat sudut gambar melengkung */
+        width: 100%; /* Agar gambar responsif */
+        max-width: 400px; /* Batasi ukuran gambar */
+    }
+        
+}
 .contact-content {
     border: 1px solid #ddd;
     height: auto;
